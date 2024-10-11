@@ -3418,7 +3418,7 @@ end)
         localplayer=game:GetService("Players").LocalPlayer
         game:GetService("Players").LocalPlayer.Character:WaitForChild("HumanoidRootPart")
         local torso = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
-        local speedSET=25
+        local speedSET=35
         local keys={a=false,d=false,w=false,s=false}
         local e1
         local e2
@@ -3638,7 +3638,7 @@ end
     function HyperCahaya(Pos)
         Distance = (Pos.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
         if Distance < 10 then
-            Speed = 20
+            Speed = 350
         elseif Distance < 25 then
             Speed = 5050
         elseif Distance < 50 then
@@ -3825,7 +3825,7 @@ getgenv().HyperCahayas = function(p)
     end)
     
 
-local Library = Update:Window("Min Gaming Hub","",Enum.KeyCode.RightControl);
+local Library = Update:Window("SHIN X HUB","",Enum.KeyCode.RightControl);
 local Main = Library:AddTab("Main","4483345998")
 local M = Library:AddTab("Item","4483345998")
 local Ss = Library:AddTab("Stats","4483345998")
